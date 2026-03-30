@@ -120,6 +120,19 @@ h3 { font-size: 1.25rem; }
 }
 .nav-brand:hover { color: var(--mint); }
 .nav-brand .brand-accent { color: var(--mint); }
+.nav-brand-img {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 15%;
+  border: 2px solid var(--mint);
+  image-rendering: pixelated;
+  box-shadow: 0 0 8px var(--mint-glow);
+  transition: box-shadow var(--transition-base);
+}
+.nav-brand:hover .nav-brand-img {
+  box-shadow: 0 0 16px rgba(74, 222, 128, 0.4);
+}
 
 .nav-links {
   display: flex; align-items: center; gap: 8px;
