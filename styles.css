@@ -634,8 +634,8 @@ h3 { font-size: 1.25rem; }
 }
 .contact-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px; max-width: 600px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; max-width: 900px;
   margin: 48px auto 0;
   width: 100%;
 }
@@ -686,6 +686,23 @@ h3 { font-size: 1.25rem; }
   background: #4752c4;
   color: #fff;
   box-shadow: 0 0 30px rgba(88, 101, 242, 0.5);
+  transform: translateY(-1px);
+  gap: 10px;
+}
+
+/* YouTube branded button */
+.contact-link.youtube-btn {
+  background: #FF0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: var(--radius-full);
+  gap: 8px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+}
+.contact-link.youtube-btn:hover {
+  background: #cc0000;
+  color: #fff;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
   transform: translateY(-1px);
   gap: 10px;
 }
